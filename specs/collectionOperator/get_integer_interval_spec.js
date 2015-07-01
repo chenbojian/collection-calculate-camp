@@ -1,6 +1,6 @@
 'use strict';
 
-var get_integer_interval = require('../../practices/collectionOperator/get_letter_interval.js');
+var get_integer_interval = require('../../practices/collectionOperator/get_integer_interval.js');
 
 describe('get_integer_interval', function () {
 
@@ -10,6 +10,7 @@ describe('get_integer_interval', function () {
   it('根据给出的两个数字得到一个自增1的数字区间', function() {
 
     var result = get_integer_interval(1, 5);
+    console.log(result);
     expect(result).toEqual(collection_a);
   });
 
